@@ -13,11 +13,11 @@ client.on('message', message => {
  if (message.content == countNumber) {
         countNumber =  countNumber + 1;
     }
-else (message.member.roles.remove("737058102167339089") & message.channel.send(countNumber));   
+else (message.member.roles.remove("**CountRoleID**") & message.channel.send(countNumber));   
 
 
  });
 
-client.login('Njk1NTI1OTgwMzU3Mzk0NDMz.XobdCw.DcJnHeHLL1JL277A2KXCKOTJvsk');
+client.login('**BOT_LOGIN_CODE**');
 
 
